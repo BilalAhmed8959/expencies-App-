@@ -175,12 +175,12 @@ const App = () => {
             {cashB}
           </p>
         </div>
-        <div className="md:flex md:justify-center flex flex-col md:items-center gap-2 md:gap-5">
+        <div className="flex justify-center flex-col items-center gap-2 md:gap-5">
           <input
             type="number"
             placeholder="Add your cash"
             ref={input}
-            className="border border-black p-2 rounded w-80 ml-7"
+            className="border border-black p-2 rounded w-80 ml-7 text-black"
           />
           <div className="flex gap-4">
             <select
@@ -240,7 +240,7 @@ const App = () => {
         <div className="flex justify-center items-center gap-5 flex-wrap mt-4">
           {arr.map((item) => (
             <div
-              className="flex flex-col border p-4 rounded shadow-md bg-white"
+              className="flex flex-col border p-4 rounded shadow-md bg-white text-black"
               key={item.id}
             >
               <p className="text-sm text-gray-600">
